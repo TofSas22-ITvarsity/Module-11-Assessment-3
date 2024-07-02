@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body onload="init()">
+    <header class="d-flex flex-column align-items-center p-3 bg-white border-bottom box-shadow fixed-top">
+        <img src="img/mini-blog-logo.png" height="40" alt="logo">
+        <nav>
+            <a href="#" id="getLatest" class="p-2 text-dark text-decoration-none">Latest</a>
+            <a href="#" id="getAll" class="p-2 text-dark text-decoration-none">All</a>
+            <a href="#" id="getPopular" class="p-2 text-dark text-decoration-none">Popular</a>
+        </nav>
+    </header>
+
+    <div class="blog-header mx-auto text-center">
+        <h1>Welcome!</h1>
+        <p id="lead">
+            All the latest post <strong><em>Tech</em></strong>, <strong><em>Design</em></strong> and
+            <strong><em>Development</em></strong> news from around the world.
+        </p>
+    </div>
+    
+    <div class="container team">
+        <img src="img/thandi.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/john.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/sally.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/lungi.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/bob.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/dave.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/jane.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/andile.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/lee.jpg" alt="" class="img-thumbnail rounded-circle" width="90">
+    </div>
+    
+    <main class="row container mx-auto">
+        <div class="column" id="posts">
+            Loading content...
+        </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

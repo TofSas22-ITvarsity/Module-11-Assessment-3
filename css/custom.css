@@ -1,0 +1,31 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+.blog-header {
+    margin: 7rem;
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    .blog-header {
+        margin: 8rem;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.team {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
