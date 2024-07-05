@@ -64,3 +64,14 @@ html {
 .bottom-bar .nav-link.active {
     color: #007bff;
 }
+
+.nav-icon {
+    font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+    .bottom-bar .nav-link {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
